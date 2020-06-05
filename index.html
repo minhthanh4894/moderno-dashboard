@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- import google font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- import font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+  <!-- import reset css file from css/reset.css -->
+  <link rel="stylesheet" href="./css/reset.css" />
+  <!-- import main css file from css/main.css -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <!-- import animated css file from css/animated.css -->
+  <link rel="stylesheet" href="./css/animated.css" />
+
+  <title>Mordeno dashboard</title>
+</head>
+
+<body>
+  <div class="wrapper dashboard">
+    <div class="header">
+      <div class="header__logo">
+        <i class="header__logo-icon fas fa-bars"></i>
+        <div class="header__logo-title">
+          <span class="_3dot"></span>
+          <h1>moderno</h1>
+        </div>
+      </div>
+      <div class="header__search">
+        <i class="header__search-icon fas fa-search"></i>
+        <input type="text" placeholder="Search for anything">
+      </div>
+      <div class="header__profile">
+        <i class="header__profile-icon far fa-bell"></i>
+        <div class="header__profile-group">
+          <img src="./images/avatar-profile.png" alt="">
+          <span>Hi, Michael!</span>
+          <i class="fas fa-angle-down"></i>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main-left">
+        <div class="main-left__profile">
+          <div class="main-left__profile-img">
+            <img src="./images/main-profile.png" alt="">
+            <span>2</span>
+          </div>
+          <h3>Michael D. Powell</h3>
+          <span>Poker Master</span>
+          <ul>
+            <li><img src="./images/money.png" alt=""></li>
+            <li><img src="./images/magic.png" alt=""></li>
+            <li><img src="./images/award.png" alt=""></li>
+          </ul>
+        </div>
+        <ul class="main-left__list">
+          <li class="main-left__item">
+            <div class="main-left__item-title list-item-active">
+              <img src="./images/games-icon.png" alt="">
+              <h3>Games</h3>
+              <span>3</span>
+            </div>
+            <ul class="main-left__subItem">
+              <li>Competitions</li>
+              <li>Pending</li>
+            </ul>
+          </li>
+          <li class="main-left__item">
+            <div class="main-left__item-title">
+              <img src="./images/videos-icon.png" alt="">
+              <h3>Videos</h3>
+              <span>2</span>
+            </div>
+          </li>
+          <li class="main-left__item">
+            <div class="main-left__item-title">
+              <img src="./images/events-icon.png" alt="">
+              <h3>Events</h3>
+              <span>6</span>
+            </div>
+          </li>
+          <li class="main-left__item">
+            <div class="main-left__item-title">
+              <img src="./images/board-icon.png" alt="">
+              <h3>Leaderboards</h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="main-right">
+        <div class="container">
+          <ul class="main-right__nav">
+            <li class="main-right__item">Categories <i class="fas fa-angle-down"></i></li>
+            <li class="main-right__item nav-item-active">Recommended</li>
+            <li class="main-right__item">Trending games</li>
+            <li class="main-right__item">New Releases</li>
+            <li class="main-right__item">
+              <img src="./images/sort-1.png" alt="">
+              <img src="./images/sort-2.png" alt="">
+            </li>
+          </ul>
+          <div class="main-right__content">
+            <div class="main-right__title">
+              <div class="main-right__title-text">
+                <span>Don't Miss them</span>
+                <h3>Recommended for You</h3>
+              </div>
+              <a href="" class="btn btn--green">View all</a>
+            </div>
+            <!-- START RECOMMENDED FOR YOU -->
+            <div class="recommended">
+              <div class="recommended__card recommended__card--lightblue">
+                <div class="recommended__card-top">
+                  <div class="recommended__card-players">
+                    <i class="card-user far fa-user"></i>
+                    <span>4,991,022</span>
+                  </div>
+                  <div class="recommended__card-rate">
+                    <div class="recommended__card-star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>4.5</span>
+                  </div>
+                </div>
+                <div class="recommended__card-content">
+                  <img src="./images/football-icon.png" alt="" class="recommended__card-icon">
+                  <div class="recommended__card-text">
+                    <h4>Score! Hero</h4>
+                    <span>First Touch Games Ltd.</span>
+                  </div>
+                </div>
+                <a href="" class="btn btn--information">Additional Information</a>
+                <img src="./images/football1.png" alt="" class="recommended__card-img football">
+              </div>
+              <div class="recommended__card recommended__card--purple">
+                <div class="recommended__card-top">
+                  <div class="recommended__card-players">
+                    <i class="card-user far fa-user"></i>
+                    <span>92,564</span>
+                  </div>
+                  <div class="recommended__card-rate">
+                    <div class="recommended__card-star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span>4.2</span>
+                  </div>
+                </div>
+                <div class="recommended__card-content">
+                  <img src="./images/moto-icon.png" alt="" class="recommended__card-icon">
+                  <div class="recommended__card-text">
+                    <h4>Moto Ride</h4>
+                    <span>GameSpire Ltd.</span>
+                  </div>
+                </div>
+                <a href="" class="btn btn--information">Additional Information</a>
+                <img src="./images/moto1.png" alt="" class="recommended__card-img moto">
+              </div>
+              <div class="recommended__card recommended__card--darkblue">
+                <div class="recommended__card-top">
+                  <div class="recommended__card-players">
+                    <i class="card-user far fa-user"></i>
+                    <span>1,223,392</span>
+                  </div>
+                  <div class="recommended__card-rate">
+                    <div class="recommended__card-star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <span>4.0</span>
+                  </div>
+                </div>
+                <div class="recommended__card-content">
+                  <img src="./images/racing-icon.png" alt="" class="recommended__card-icon">
+                  <div class="recommended__card-text">
+                    <h4>Racing Fever</h4>
+                    <span>Spinner Master</span>
+                  </div>
+                </div>
+                <a href="" class="btn btn--information">Additional Information</a>
+                <img src="./images/racing1.png" alt="" class="recommended__card-img racing">
+              </div>
+            </div>
+            <!-- END RECOMMENDED FOR YOU -->
+            <div class="main-right__title">
+              <div class="main-right__title-text">
+                <span>This Week's</span>
+                <h3>Trending Games</h3>
+              </div>
+              <a href="" class="btn btn--green">View all</a>
+            </div>
+            <!-- START TRENDING GAMES -->
+            <div class="trending">
+              <div class="trending__card">
+                <div class="trending__card-elipsis"><i class="fas fa-ellipsis-v"></i></div>
+                <div class="trending__card-top">
+                  <img src="./images/block-craft-icon.png" alt="" class="trending__card-icon">
+                  <div class="trending__card-title">
+                    <h3>Block Craft 3D</h3>
+                    <h4>Fun Games</h4>
+                  </div>
+                </div>
+                <div class="trending__card-bottom">
+                  <ul class="trending__card-list">
+                    <li class="trending__card-item"><img src="./images/player1.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player2.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player3.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player4.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player0.png" alt=""></li>
+                  </ul>
+                  <div class="trending__card-total">331,851 total</div>
+                </div>
+              </div>
+              <div class="trending__card">
+                <div class="trending__card-elipsis"><i class="fas fa-ellipsis-v"></i></div>
+                <div class="trending__card-top">
+                  <img src="./images/poolball-icon.png" alt="" class="trending__card-icon">
+                  <div class="trending__card-title">
+                    <h3>3D Pool Ball</h3>
+                    <h4>CanadaDroid</h4>
+                  </div>
+                </div>
+                <div class="trending__card-bottom">
+                  <ul class="trending__card-list">
+                    <li class="trending__card-item"><img src="./images/player5.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player6.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player7.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player8.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player0.png" alt=""></li>
+                  </ul>
+                  <div class="trending__card-total">74,315 total</div>
+                </div>
+              </div>
+              <div class="trending__card">
+                <div class="trending__card-elipsis"><i class="fas fa-ellipsis-v"></i></div>
+                <div class="trending__card-top">
+                  <img src="./images/gunship-icon.png" alt="" class="trending__card-icon">
+                  <div class="trending__card-title">
+                    <h3>Gunship Strike 3D</h3>
+                    <h4>Candy Mobile</h4>
+                  </div>
+                </div>
+                <div class="trending__card-bottom">
+                  <ul class="trending__card-list">
+                    <li class="trending__card-item"><img src="./images/player1.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player5.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player8.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player2.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player0.png" alt=""></li>
+                  </ul>
+                  <div class="trending__card-total">496,804 total</div>
+                </div>
+              </div>
+              <div class="trending__card">
+                <div class="trending__card-elipsis"><i class="fas fa-ellipsis-v"></i></div>
+                <div class="trending__card-top">
+                  <img src="./images/toy-truck-icon.png" alt="" class="trending__card-icon">
+                  <div class="trending__card-title">
+                    <h3>Toy Truck Rally 3D</h3>
+                    <h4>3dinteger</h4>
+                  </div>
+                </div>
+                <div class="trending__card-bottom">
+                  <ul class="trending__card-list">
+                    <li class="trending__card-item"><img src="./images/player2.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player4.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player8.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player6.png" alt=""></li>
+                    <li class="trending__card-item"><img src="./images/player0.png" alt=""></li>
+                  </ul>
+                  <div class="trending__card-total">289,070 total</div>
+                </div>
+              </div>
+            </div>
+            <!-- END TRENDING GAMES -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/animated.js"></script>
+</body>
+
+</html>
